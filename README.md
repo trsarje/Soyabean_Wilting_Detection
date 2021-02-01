@@ -10,10 +10,9 @@ A growing population and rapid environmental changes mean that crop scientists w
 
 ## Data: 
 * The data consiste of ~800 RGB images of Soyabean crop distributed across five classes (0-4).
-* Resized inames to 224 X 224 X 3. 
+* Resized images to 224 X 224 X 3. 
 * Augmented images by flipping, rotating, and by adjusting saturation and brightness. 
 ![Sample Images](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/ClassImg.png)
 
 ## Model:
-* 
 [Download Model Weights](https://drive.google.com/file/d/1-4z9Op1pfnEo-ZB90bLk-sYVEIL-43QK/view?usp=sharing)
