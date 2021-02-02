@@ -12,7 +12,19 @@ A growing population and rapid environmental changes mean that crop scientists w
 * The data consiste of ~800 RGB images of Soyabean crop distributed across five classes (0-4).
 * Resized images to 224 X 224 X 3. 
 * Augmented images by flipping, rotating, and by adjusting saturation and brightness. 
+
 ![Sample Images](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/ClassImg.png)
 
 ## Model:
-[Download Model Weights](https://drive.google.com/file/d/1-4z9Op1pfnEo-ZB90bLk-sYVEIL-43QK/view?usp=sharing)
+* A transfer learning model is used with VGG16 as base. VGG16 is initialised with "Imagenet" weights.
+* Following base model custom layers are added. 
+* Trained model weights can be downloaded using the [link](https://drive.google.com/file/d/1-4z9Op1pfnEo-ZB90bLk-sYVEIL-43QK/view?usp=sharing).
+
+![Model architecture](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/Modelpng.png)
+
+## Evaluation:
+* The model is trained to achieve ~80% validation accuracy. 
+
+![Training graph](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/acc.png)
+
+
