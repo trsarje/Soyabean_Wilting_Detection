@@ -5,7 +5,7 @@ A growing population and rapid environmental changes mean that crop scientists w
 
 ## Project Overview:
 * Created a tool to classify given Soyabean crop images in different classes according to wilting of the plant. 
-* Pre-processed, augmented around 800 images using OpenCV, TensorFlow. 
+* Pre-processed, augmented around 400 images using OpenCV, TensorFlow. 
 * Engineered a transfer learning model using VGG16 as base model.
 
 ![Model architecture](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/Modelpng.png)
@@ -13,7 +13,7 @@ A growing population and rapid environmental changes mean that crop scientists w
 ## Data: 
 * The data consiste of ~800 RGB images of Soyabean crop distributed across five classes (0-4).
 * Resized images to 224 X 224 X 3. 
-* Splitted ~200 images in validation and ~600 for training. 
+* Splitted ~200 images in validation and ~1600 for training. 
 * Augmented train images by flipping, rotating, and by adjusting saturation and brightness. 
 
 ![Sample Images](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/ClassImg.png)
