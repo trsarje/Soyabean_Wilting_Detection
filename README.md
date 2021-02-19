@@ -11,9 +11,9 @@ A growing population and rapid environmental changes mean that crop scientists w
 ![Model architecture](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/Modelpng.png)
 
 ## Data: 
-* The data consiste of ~800 RGB images of Soyabean crop distributed across five classes (0-4).
+* The data consiste of ~1600 RGB images of Soyabean crop distributed across five classes (0-4).
 * Resized images to 224 X 224 X 3. 
-* Splitted ~200 images in validation and ~1600 for training. 
+* Splitted ~200 images in validation and ~1400 for training. 
 * Augmented train images by flipping, rotating, and by adjusting saturation and brightness. 
 
 ![Sample Images](https://github.com/trsarje/Soyabean_Wilting_Detection/blob/master/Images/ClassImg.png)
